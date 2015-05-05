@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/02/2015, 05:20:56 PM
+    Author     : DVC
+*/
+
+
+.margen{
+ 
+    background: yellow;
+}
+body{
+    
+    background-image: url(imagenes/wall.png);
+
+}		
+.carrusel{
+    margin-top: 50px;
+}	
+.cajon{float:left;
+margin-top: 8px;
+padding-top: 8px;
+
+}
+
+.img-rounded {
+border-radius: 6px;
+padding: 0px;
+}
+
+.glyphicon { margin-right:10px; }
+.panel-body { padding:0px; }
+.panel-body table tr td { padding-left: -20px }
+.panel-body .table {margin-bottom: 0px; }
+
+.well {
+min-height: 20px;
+padding: 20px;
+margin-bottom: 20px;}
+
+.panel-title {
+margin-top: 0;
+margin-bottom: 0;
+font-size: 16px;
+}

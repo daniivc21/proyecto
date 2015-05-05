@@ -1,0 +1,68 @@
+/* 
+    Document   : reglamodal
+    Created on : 10/03/2015, 02:34:35 PM
+    Author     : DVC
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+.lD{
+    width: auto;
+    height: auto;
+}
+
+.fD{
+    margin-bottom: 25px;
+}
+body {
+  color: #F9E40D;
+  font-family: Arial;
+  background-color: #CCC;
+}
+.container{
+    width: 1200px;
+    height:1200px;
+    background-color: #FFF;
+    border:solid 2px #999;
+    margin: auto;
+    font-family: Arial;
+    padding: 20px;
+}
+.ventana{
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    position: fixed;
+    background-image: url(img/bg-modal.png);
+    top: 0;
+    left: 0;
+    display:none;
+}
+.form{
+    width: 650px;
+    height: 550px;
+    padding: 30px;
+    background-color: #FFF;
+    color: #666;
+    top: 30%;
+    left: 30%;
+    position: absolute;
+    margin-left: -175px;
+    margin-top: -175px;
+    border: 12px;
+}
+.cerrar{
+    font-weight: 900;
+    text-align: right;
+}
+.cerrar a{
+    color: red;
+}
+
+fieldset {
+  min-width: 2;
+  padding: 2;
+  margin: 0;
+  border: 32;
+}

@@ -1,0 +1,146 @@
+/* 
+    Document   : formulario
+    Created on : 26/03/2015, 12:00:44 PM
+    Author     : DVC
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.puestofield{
+
+    width: 522.22222232818604px;
+    height: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+
+}
+.perfilfield{
+    width: 522.22222232818604px;
+    height: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.margenlegend{
+    width: auto;
+}
+root { 
+    display: block;
+}
+body, .login-submit, .login-submit:before, .login-submit:after {
+    background: #4c4c4c url("img/bg.png") 0 0 repeat;
+}
+
+body {
+    font: 14px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #404040;
+}
+.container{
+    overflow: hidden;
+    margin-top: 15px;
+    background-color: #00a2d3;
+    border-radius: 25px;
+    height: auto;
+    width: 100%;
+}
+.izquierda{
+    background-color: #C0E0EB;
+    float: left;
+    margin-top: 45px;
+    margin-left: 85px;
+    margin-bottom: 45px;
+    margin-right: none;
+    border-radius: 20px 0 0 20px;
+    height: 1110px;
+}   
+.derecha{
+    background-color: #ABD5E5; 
+    float: left;
+    margin-top: 45px;
+    margin-left: none;
+    margin-bottom: 45px;
+    margin-right: 45px;
+    border-radius: 0 20px 20px 0;
+    width: 700px;
+    height: 1110px;
+}
+
+body {
+    line-height: 1;
+}
+.botones{
+    width: 150px;
+    height: 280px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+}
+.informacion{
+    width: 150px;
+    height: 280px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.degradadoazul,panel-body{
+    background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(30,87,153,1) 15%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.96) 85%, rgba(30,87,153,1) 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(15%,rgba(30,87,153,1)), color-stop(19%,rgba(30,87,153,1)), color-stop(20%,rgba(30,87,153,1)), color-stop(50%,rgba(41,137,216,1)), color-stop(80%,rgba(30,87,153,1)), color-stop(81%,rgba(30,87,153,1)), color-stop(85%,rgba(30,87,153,0.96)), color-stop(100%,rgba(30,87,153,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(30,87,153,1) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.96) 85%,rgba(30,87,153,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(30,87,153,1) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.96) 85%,rgba(30,87,153,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(30,87,153,1) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.96) 85%,rgba(30,87,153,1) 100%);
+    background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(30,87,153,1) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.96) 85%,rgba(30,87,153,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#1e5799',GradientType=1 );
+}
+
+.margen{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+}
+.fondomarg{
+    margin-top: 40px;
+    height: 30px;
+    margin-bottom: 0px;
+    margin: 0px;
+}
+.fondomargb{
+    background-color: yellow;
+    margin-top: 0px;
+    height: 30px;
+    margin-bottom: 0px; 
+}
+
+
+a {
+    color: #267ECA;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+label {
+    float: left;
+    width: 100px;
+    line-height: 40px;
+    padding-right: 10px;
+    font-weight: 100;
+    text-align: right;
+    letter-spacing: 1px;
+}
+
+
+.cajademo3-auxiliar {
+    float: left;
+    position: relative;
+    left: 50%;
+    margin-top: 35px;
+}
+.cajademo3 {
+    margin: 0;
+    padding: 10px 10px 20px 5px;
+    position: relative;
+    left: -50%;
+}
+
