@@ -118,7 +118,7 @@
                                         <option value="Ba">Basico</option>
                                         <option value="Int">Intermedio</option>
                                         <option value="Av">Avanzado</option>
-                                    </select><br/>
+                                    </select><br/>                                  
                                 </div>
                                 <input type="submit" name="submit" value="Submit"> 
                             </fieldset>

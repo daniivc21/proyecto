@@ -108,12 +108,6 @@ $(document).ready(function(){
         return false;
     });
 });
-//$('input:radio[name=check]').click(function () {
-//    valrad = $('input:radio[name=opciones]:checked').val(); 
-//    if(valrad==1) $("#ING").hide();
-//    else $("#ING").show();
-//});
-
 
 $(document).ready(function()
 {
