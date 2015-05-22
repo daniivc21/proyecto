@@ -13,12 +13,10 @@ $arreglo = $obj_prin_cont->regresa_total_vacantes();
 $total_vacantes = $arreglo[0][0];
 $arreglo = $obj_prin_cont->regresa_vacantes();
 $privilegio = -1;
-
 if (isset($_SESSION['id_usuario'])) {
     $privilegio = $_SESSION['privilegio'];
 }
 ?>
-
 <html>
     <head>
         <meta charset="UTF-8">
@@ -68,7 +66,6 @@ if (isset($_SESSION['id_usuario'])) {
                     if ($privilegio == 0) {
                         echo ' <a href="Altas_bajas.php" class="ai3"> Ver solicitudes </a> <a href="cierra.php" class="ai3"> Salir </a>';
                     } else {
-
                         echo ' <a href="" class="ai3"> Vacantes </a> <a href="cierra.php" class="ai3"> Salir </a>';
                     }
                 }

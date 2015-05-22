@@ -11,16 +11,28 @@
         <link href="bootstrap/extras/botones.css" rel="stylesheet" media="screen">
     </head>
     <body>
+        
         <div class="containerfluid">
+            <div class="row adapta1">
+                <div class="col-lg-8 col-lg-offset-11 margizq txtsalir">
+                    <a class="txtsalir" href="../vistas/Principal.php" class="ai3">
+                        Salir
+                    </a>
+                </div>
+            </div>
+            
             <div class="margen">
+               
                 <div class="row fondomarg degradadoazul">      
                 </div>
+               
                 <div class="row" style="height: 121px;">
                     <div class="col-lg-12 ">
                         <a class="thumbnail">
                             <img src="../recursos/imgs/header_logo.png">
                         </a>                       
                     </div>
+                
                 </div>
                 <div class="row fondomargb degradadoazul">
                 </div>

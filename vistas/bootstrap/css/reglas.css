@@ -197,7 +197,12 @@ A:visited {
     margin-top: 10px;
     color: #2887D5 !important; 
 }
-
+.txtsalir{
+    font-size: 28px;
+    text-decoration:none;
+    margin-top: 10px;
+    color: whitesmoke !important;
+}
 
 .textoama{
 text-decoration:none;
