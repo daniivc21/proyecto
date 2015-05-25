@@ -11,7 +11,6 @@
         <link href="bootstrap/extras/botones.css" rel="stylesheet" media="screen">
     </head>
     <body>
-        
         <div class="containerfluid">
             <div class="row adapta1">
                 <div class="col-lg-8 col-lg-offset-11 margizq txtsalir">
@@ -19,10 +18,8 @@
                         Salir
                     </a>
                 </div>
-            </div>
-            
-            <div class="margen">
-               
+            </div>            
+            <div class="margen">              
                 <div class="row fondomarg degradadoazul">      
                 </div>
                
@@ -31,8 +28,7 @@
                         <a class="thumbnail">
                             <img src="../recursos/imgs/header_logo.png">
                         </a>                       
-                    </div>
-                
+                    </div>       
                 </div>
                 <div class="row fondomargb degradadoazul">
                 </div>
@@ -127,7 +123,6 @@
                                     </label>
                                 </div>
                                 <div class="radio" style="margin-bottom: 10px;">
-
                                     <label>
                                         <input type="radio" name="opciones" id="opciones_2" value="4" >
                                         Femenino
@@ -161,7 +156,3 @@
     </form>
     </body>
 </html>
-
-
-
-
