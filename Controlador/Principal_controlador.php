@@ -1,5 +1,3 @@
-
-
 <?php
 class principal_controlador extends Modelo {
     public function regresa_vacantes() {
