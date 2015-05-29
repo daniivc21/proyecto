@@ -250,13 +250,12 @@ $arreglo = $obj_prin_cont->regresa_vacantes();
                         <div class="well " style ="height: 350px">
                             <div class="fblanco" style="height: 310px;">
                                 <div class="col-lg-12">
-<!--                                    <h1 href="#">
-                                        <h2><a href="javascript:openVentana();">Ver mas...></a></h2>
-                                    </h1>-->
+                                    <!--                                    <h1 href="#">
+                                                                            <h2><a href="javascript:openVentana();">Ver mas...></a></h2>
+                                                                        </h1>-->
                                     <?php
                                     for ($i = 0; $i < sizeof($arreglo); $i++) {
-                                        echo '<h3> Nombre: ' . $arreglo[$i][1] . '</h3>';
-                                        echo '<h6> Descripcion: ' . $arreglo[$i][2] . '</h6>';
+                                        echo '<h3> Nombre: ' . $arreglo[$i][2] . '</h4>';
                                         echo '<h6> Descripcion: ' . $arreglo[$i][3] . '</h6>';
                                     }
                                     ?>
